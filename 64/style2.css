@@ -1,0 +1,30 @@
+
+.box1, .box2, .box3, .box4 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 20px solid #3498db;
+    background-color: #90d0fb;
+    margin: 10px;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    border: 20px solid #3498db;
+    background-color: #90d0fb;
+}
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    border: 20px solid #3498db;
+    background-color: #90d0fb;
+}
+
+.box4 {
+    width: 350px;
+    height: 350px;
+    border: 20px solid #3498db;
+    background-color: #90d0fb;
+}
