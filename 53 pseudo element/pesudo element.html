@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements Example</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Apply styles to the first line of a div */
+        div::first-line {
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* Apply styles to the first letter of a div */
+        div::first-letter {
+            font-size: 150%;
+            color: red;
+        }
+
+        /* Apply styles before a div */
+        div::before {
+            content: '🌟';
+            color: green;
+            font-size: 200%;
+        }
+
+        /* Apply styles after a div */
+        div::after {
+            content: '✨';
+            color: orange;
+            font-size: 200%;
+        }
+
+        /* Apply styles to list item markers */
+        ul li::marker {
+            content: '•';
+            color: purple;
+        }
+
+        /* Apply styles to the selection pseudo-element */
+        ::selection {
+            background-color: yellow;
+            color: black;
+        }
+
+        
+        div {
+            border: 2px solid #333;
+            padding: 20px;
+            margin: 20px;
+            max-width: 400px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is an example of pseudo-elements in CSS. The first line and the first letter of this paragraph have special styles.</p>
+    </div>
+
+    <div>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+</body>
+</html>
