@@ -1,0 +1,27 @@
+.div1{
+    background-color: rgb(175, 175, 43);
+    width: 400px;
+
+}
+.div2{
+    background-color: bisque;
+    width: 300px;
+}
+.div3{
+    background-color: brown;
+    color: aliceblue;
+    width: 500px;
+}
+.div4{
+    background-color: pink;
+    width: 400px;
+}
+.div5{
+    background-color: green;
+    color: aliceblue;
+    width: 500px;
+}
+.div6{
+    background-color: greenyellow;
+    width: 400px;
+}
